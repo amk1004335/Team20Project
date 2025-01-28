@@ -235,6 +235,10 @@ html {
 .footer-custom .bi:hover{
     color:cyan;
 }
+.footer-custom .team20{
+    font-family:'oleo script swash caps', cursive;
+    color:cyan;
+}
   @media (max-width: 768px) {
     .about-title {
       font-size: 28px;
