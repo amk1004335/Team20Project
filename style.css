@@ -141,7 +141,6 @@ html {
     background-color: #e24c3b;
   }
   
-  /* Collapse Text Styling */
   #readMoreContent p {
     font-size: 18px;
     line-height: 1.7;
@@ -221,6 +220,32 @@ html {
 
 .btn-danger:hover {
     background-color: #b52b27;
+}
+#book {
+  padding: 60px 15px; 
+}
+
+#book h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d9534f;
+  text-decoration: underline;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.form-control {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
 }
 .footer-custom{
     background-color:black;
