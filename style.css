@@ -226,7 +226,14 @@ html {
     background-color:black;
     color:white;
     text-align:center;
-
+    justify-content:space around;
+}
+.footer-custom a{
+    color:white;
+    transition:color 0.3s ease-in-out;
+}
+.footer-custom .bi:hover{
+    color:cyan;
 }
   @media (max-width: 768px) {
     .about-title {
