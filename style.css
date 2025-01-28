@@ -101,7 +101,13 @@ html {
   height: auto; 
   margin-bottom: 20px;
 }
-
+#about img[src="khana1.png"]:hover,
+#about img[src="khana3.png"]:hover,
+#about img[src="momo.png"]:hover {
+    transform: scale(1.05);  
+    opacity: 0.85;           
+    transition: transform 0.2s ease, opacity 0.2s ease;  
+}
   .menu-section {
     padding: 60px 15px; 
     text-align: center;
