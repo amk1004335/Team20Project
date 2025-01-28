@@ -222,6 +222,12 @@ html {
 .btn-danger:hover {
     background-color: #b52b27;
 }
+.footer-custom{
+    background-color:black;
+    color:white;
+    text-align:center;
+
+}
   @media (max-width: 768px) {
     .about-title {
       font-size: 28px;
