@@ -77,7 +77,7 @@ html {
 }
 
 .hero-text {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
@@ -89,7 +89,7 @@ html {
     height:100%;
 }
 #about h2 {
-  font-size: 2rem; 
+  font-size: 1.8rem; 
   font-weight: bold;
   color: #d9534f;
   text-decoration: underline;
@@ -218,7 +218,28 @@ html {
     font-family:'oleo script swash caps', cursive;
     color:cyan;
 }
+.container{
+    width:100%
+}
   @media (max-width: 768px) {
+    .hero-title{
+        font-size:50px;
+    }
+    .hero-text{
+        font-size:18px;
+    }
+    .menu-section h2{
+        font-size:1.3rem;
+    }
+    .card-body h4{
+        font-size:1.3rem;
+    }
+    .footer-custom{
+        padding:20px;
+    }
+    .footer-custom .social-icons{
+        flex-direction:column;
+    }
     .about-title {
       font-size: 28px;
     }
@@ -231,4 +252,25 @@ html {
       text-align: center;
     }
   }
+  @media(max-width:576){
+    .hero-title {
+        font-size: 40px;
+    }
+    .hero-text {
+        font-size: 16px;
+    }
+    .menu-section p {
+        font-size: 0.9rem;
+    }
+    .card-body h4 {
+        font-size: 1.2rem;
+    }
+    .footer-custom {
+        padding: 15px;
+    }
+    .footer-custom .team20 {
+        font-size: 0.9rem;
+    }
+}
+  
   
