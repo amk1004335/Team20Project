@@ -10,6 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 .navbar {
+    display:flex;
+    justify-content:space-between;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 20px;
     height: auto; 
@@ -34,6 +40,7 @@ html {
 .navbar-nav .nav-link.active{
     color:cyan;
 }
+
 .logo {
     max-width: 120px; 
     height: auto;
@@ -197,6 +204,11 @@ html {
   font-size: 14px;
   border-radius: 30px;
 }
+.back a {
+    text-decoration: none;
+    background-color:white
+    ;
+}
 
 .btn-primary:hover {
   background-color: #0056b3;
@@ -222,6 +234,21 @@ html {
     width:100%
 }
   @media (max-width: 768px) {
+  
+    .navbar-nav {
+       flex-direction:column;
+       width: 100%;
+        text-align: center;
+        position: static;
+        top: 0;
+    }
+    .navbar-toggler{
+        text-align:right;
+    }
+
+    .navbar-collapse {
+        display: block !important;
+    }
     .hero-title{
         font-size:50px;
     }
